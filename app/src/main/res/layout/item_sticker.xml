@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:background="@drawable/bg_sticker_category"
+    android:clickable="true"
+    android:foreground="@drawable/bg_ripple_squre"
+    android:orientation="vertical">
+
+    <com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareImagesView
+        android:id="@+id/ivSticker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/adaptiveBanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:minHeight="@dimen/_50sdp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="bottom"
+            android:background="@color/sub_bg_color"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_04"
+                android:fontFamily="@font/sf_medium"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:text="Ad"
+                android:textColor="@color/white_to_white"
+                android:textSize="@dimen/_11ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/sf_medium"
+                android:includeFontPadding="false"
+                android:text="Advertisement"
+                android:textSize="@dimen/_13ssp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

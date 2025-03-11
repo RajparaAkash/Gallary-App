@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/album_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sub_bg_color"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+        <ImageView
+            android:id="@+id/album_select"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/checkbox_round_unselected"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/pin_album_img"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/icon_privacy_album_pin"
+            android:visibility="gone"
+            app:tint="@color/white" />
+
+    </com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareRelativeLayout>
+
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_medium"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/album_media_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/sub_text_color"
+        android:textSize="@dimen/_10ssp" />
+
+</LinearLayout>

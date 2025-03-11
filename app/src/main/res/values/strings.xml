@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Gallery</string>
+
+    <string name="str_0">Gallery</string>
+
+    <string name="str_1">Explore the Gallery</string>
+    <string name="str_2">Protect Your Memories</string>
+    <string name="str_3">Enhancement Features</string>
+    <string name="str_4">Organize and explore your photos and videos\nwith simplicity.</string>
+    <string name="str_5">Ensure the safety of your photos and videos with\nour advanced gallery lock.</string>
+    <string name="str_6">Your photo makeover studio with filters,\ncropping, brightness and more.</string>
+    <string name="str_7">Get Started</string>
+    <string name="str_8">&lt;font color=#3CB043&gt;G&lt;/font&gt;allery</string>
+
+    <string name="str_9">Privacy Vault</string>
+    <string name="str_10">Set Wallpaper</string>
+    <string name="str_11">No Data Found</string>
+    <string name="str_12">Secret Snap</string>
+    <string name="str_13">Are you sure you want to discard changes?</string>
+    <string name="str_14">Discard Changes</string>
+    <string name="str_15">This Person snooped on your secret vault\non</string>
+    <string name="str_16">Add Text</string>
+    <string name="str_17">Enter name</string>
+    <string name="str_18">Privacy</string>
+    <string name="str_19">Set PIN</string>
+    <string name="str_20">Confirm PIN</string>
+    <string name="str_21">Set Security Question</string>
+    <string name="str_22">Rename File</string>
+    <string name="str_23">Write Answer</string>
+    <string name="str_24">Are you sure you want to recover\nyour password ?</string>
+    <string name="str_25">Recover</string>
+    <string name="str_26">Cancel</string>
+    <string name="str_27">Recover Password</string>
+    <string name="str_28">Security Question</string>
+    <string name="str_29">Crop Image</string>
+    <string name="str_30">Confirm New PIN</string>
+    <string name="str_31">Change Password</string>
+    <string name="str_32">Delete File</string>
+    <string name="str_33">This will permanently delete the files. Are you sure you want to do this ?</string>
+    <string name="str_34">Setup Privacy Vault</string>
+    <string name="str_35">Info</string>
+    <string name="str_36">Share</string>
+    <string name="str_37">Edit</string>
+    <string name="str_38">Rotate</string>
+    <string name="str_39">Lock</string>
+    <string name="str_40">Delete</string>
+    <string name="str_41">More</string>
+    <string name="str_42">Rename</string>
+    <string name="str_43">Save</string>
+    <string name="str_44">Change</string>
+    <string name="str_45">Relive your memorable moments</string>
+    <string name="str_46">Status Saver</string>
+    <string name="str_47">Details</string>
+    <string name="str_48">Edit Image</string>
+    <string name="str_49">Portrait</string>
+    <string name="str_50">High Clarity</string>
+    <string name="str_51">Animated</string>
+    <string name="str_52">Hide to</string>
+    <string name="str_53">Hide to Album</string>
+    <string name="str_54">Change Theme</string>
+    <string name="str_55">System</string>
+    <string name="str_56">Send to</string>
+    <string name="str_57">Privacy Vault Settings</string>
+    <string name="str_58">Languages</string>
+    <string name="str_59">Rate Us</string>
+    <string name="str_60">Share App</string>
+    <string name="str_61">Feedback</string>
+    <string name="str_62">Privacy Policy</string>
+    <string name="str_63">About App</string>
+    <string name="str_64">SAVE</string>
+    <string name="str_65">Choose the Language</string>
+    <string name="str_66">Favorite</string>
+    <string name="str_67">OK</string>
+    <string name="str_68">Enter Password</string>
+    <string name="str_69">Tap to change password</string>
+    <string name="str_70">Change unlock type</string>
+    <string name="str_71">Enable fingerprint</string>
+    <string name="str_72">Invisible mode</string>
+    <string name="str_74">PIN</string>
+    <string name="str_75">Pattern</string>
+    <string name="str_76">Set as Wallpaper</string>
+    <string name="str_77">Pin Album</string>
+    <string name="str_78">Slide Show</string>
+    <string name="str_79">Print</string>
+    <string name="str_80">Unpin Album</string>
+    <string name="str_81">Last modified</string>
+    <string name="str_82">All Media</string>
+    <string name="str_83">Albums</string>
+    <string name="str_84">Settings</string>
+    <string name="str_85">Search</string>
+    <string name="str_86">Sort listings by</string>
+    <string name="str_87">Thumbnail columns</string>
+    <string name="str_88">View as list</string>
+    <string name="str_89">View as grid</string>
+    <string name="str_90">Create new album</string>
+    <string name="str_91">Create New\nAlbum</string>
+    <string name="str_92">2 columns</string>
+    <string name="str_93">3 columns</string>
+    <string name="str_94">4 columns</string>
+    <string name="str_95">Unlock</string>
+    <string name="str_96">Secret snap</string>
+    <string name="str_97">Name :</string>
+    <string name="str_98">Type :</string>
+    <string name="str_99">Size :</string>
+    <string name="str_100">Date :</string>
+    <string name="str_101">Resolution :</string>
+    <string name="str_102">Path :</string>
+    <string name="str_103">Empty Favorite</string>
+    <string name="str_104">Move to Recycle</string>
+    <string name="str_105">Recycle Bin</string>
+    <string name="str_106">Size</string>
+    <string name="str_107">Created Date</string>
+    <string name="str_108">Name</string>
+    <string name="str_109">Ascending</string>
+    <string name="str_110">Descending</string>
+    <string name="str_111">Add to Favorite</string>
+    <string name="str_112">Restore</string>
+    <string name="str_113">Video Player</string>
+    <string name="str_114">Skip</string>
+    <string name="str_115">Next</string>
+    <string name="str_116">Select Album</string>
+    <string name="str_117">Photos</string>
+    <string name="str_118">Videos</string>
+    <string name="str_119">Create New Album</string>
+    <string name="str_120">Enter New Password</string>
+    <string name="str_121">Enter Old Password</string>
+    <string name="str_122">Create Album</string>
+    <string name="str_123">Please verify your fingerprint</string>
+    <string name="str_124">Close</string>
+    <string name="str_125">Enter folder name</string>
+    <string name="str_126">Create</string>
+    <string name="str_127">Are you sure you want to restore\nthe files ?</string>
+    <string name="str_128">Restore File</string>
+    <string name="str_129">Delete permanently</string>
+    <string name="str_130">Are you sure you want to delete\nthe file ?</string>
+    <string name="str_131">Select</string>
+    <string name="str_132">Empty Recycle Bin</string>
+    <string name="str_133">Restore All</string>
+    <string name="str_134">Privacy vault is not setup. Please setup now to continue this action.</string>
+    <string name="str_135">Wrong password, Try again</string>
+    <string name="str_136">Wrong pattern, Try again</string>
+    <string name="str_137">Unexpected intent action: %1$s</string>
+    <string name="str_138">Use as</string>
+    <string name="str_139">Copy to</string>
+    <string name="str_140">Move to</string>
+    <string name="str_141">Copy to Album</string>
+    <string name="str_142">Move to Album</string>
+    <string name="str_143">Draw Pattern</string>
+    <string name="str_144">Does\'t match with new Pattern</string>
+    <string name="str_145">Does\'t match with new PIN</string>
+    <string name="str_146">Pattern Lock</string>
+    <string name="str_147">Enable secret snap</string>
+    <string name="str_148">An unknown DRM error occurred</string>
+    <string name="str_149">This device does not support the required DRM scheme</string>
+    <string name="str_150">Unable to instantiate decoder %1$s</string>
+    <string name="str_151">Pin Lock</string>
+    <string name="str_152">This device does not provide a decoder for %1$s</string>
+    <string name="str_153">This device does not provide a secure decoder for %1$s</string>
+    <string name="str_154">Status</string>
+    <string name="str_155">Unable to query device decoders</string>
+    <string name="str_156">Media includes audio tracks, but none are playable by this device</string>
+    <string name="str_157">Media includes video tracks, but none are playable by this device</string>
+    <string name="str_158">Recycle Bin</string>
+    <string name="str_159">Pause</string>
+    <string name="str_160">Play</string>
+    <string name="str_161">Normal</string>
+    <string name="str_162">Forgot Password ?</string>
+    <string name="str_163">Language</string>
+    <string name="str_164">Filters</string>
+    <string name="str_165">Gamma</string>
+    <string name="str_166">Please Wait</string>
+    <string name="str_167">Saturation</string>
+    <string name="str_168">Sepia</string>
+    <string name="str_169">Sharpness</string>
+    <string name="str_170">Sticker</string>
+    <string name="str_171">Text</string>
+    <string name="str_172">Toon</string>
+    <string name="str_173">Vignette</string>
+    <string name="str_174">Apply</string>
+    <string name="str_175">Adjust</string>
+    <string name="str_176">Blur</string>
+    <string name="str_177">Brightness</string>
+    <string name="str_178">Brush</string>
+    <string name="str_179">Brush Opacity</string>
+    <string name="str_180">Brush Size</string>
+    <string name="str_181">Contrast</string>
+    <string name="str_182">Rotate right 90°</string>
+    <string name="str_183">Rotate left 90°</string>
+    <string name="str_184">Rotate 180°</string>
+    <string name="str_185">Crop</string>
+    <string name="str_186">Connect at least 4 dots\nPlz try Again</string>
+    <string name="str_187">Confirm New Pattern</string>
+    <string name="str_188">Confirm old Pattern</string>
+    <string name="str_189">Confirm Pattern</string>
+    <string name="str_190">Saved Successfully</string>
+    <string name="str_191">Draw New Pattern</string>
+    <string name="str_192">Field can\'t empty</string>
+    <string name="str_193">Do you want to apply </string>
+    <string name="str_194">changes?</string>
+    <string name="str_195">Whatsapp</string>
+    <string name="str_196">WA Business</string>
+    <string name="str_197">Downloads</string>
+    <string name="str_198">Due to system restriction, we need you to authorize or give permission to use \".Statuses\" folder to show and download statuses.</string>
+    <string name="str_199">Allow Permission</string>
+    <string name="str_200">Open WA from below + icon and view your contacts status.</string>
+    <string name="str_201">Return back to gallery from WA.</string>
+    <string name="str_202">Now click on the download icon to save the status you want and it\'s Done.</string>
+    <string name="str_203">Permission Needed</string>
+    <string name="str_204">Light</string>
+    <string name="str_205">Dark</string>
+    <string name="str_206">Share to</string>
+    <string name="str_207">WhatsApp</string>
+    <string name="str_208">Facebook</string>
+    <string name="str_209">Instagram</string>
+    <string name="str_210">Twitter</string>
+    <string name="str_211">More</string>
+
+    <string name="str_212">Ai Bg Remover</string>
+    <string name="str_213">Ai Background Remover</string>
+    <string name="str_214">Enjoy high-quality background removal from your photos with the advanced AI Background Remover tool, designed to meet the needs of photographers and designers</string>
+    <string name="str_215">Continue</string>
+    <string name="str_216">Remove Background</string>
+    <string name="str_217">Download</string>
+    <string name="str_218">Reset</string>
+    <string name="str_219">Refine Edges</string>
+    <string name="str_220">Removing Background</string>
+    <string name="str_221">Importing Image</string>
+    <string name="str_222">Watch AD</string>
+    <string name="str_223">Eraser</string>
+    <string name="str_224">Auto</string>
+    <string name="str_225">Lasso</string>
+    <string name="str_226">Restore</string>
+    <string name="str_227">Zoom</string>
+    <string name="str_228">Background</string>
+    <string name="str_229">Size</string>
+    <string name="str_230">Offset</string>
+    <string name="str_231">Threshold</string>
+
+
+    <!--**********-->
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_error_input_data_is_absent" translatable="false">Both input and output Uri must be specified</string>
+
+
+    <!--**********-->
+    <string name="clarendon" translatable="false">Clarendon</string>
+    <string name="oldman" translatable="false">OldMan</string>
+    <string name="haan" translatable="false">Haan</string>
+    <string name="april" translatable="false">April</string>
+    <string name="mars" translatable="false">Mars</string>
+    <string name="rise" translatable="false">Rise</string>
+    <string name="audrey" translatable="false">Audrey</string>
+    <string name="metropolis" translatable="false">Metropolis</string>
+    <string name="cruz" translatable="false">Cruz</string>
+    <string name="adele" translatable="false">Adele</string>
+    <string name="amazon" translatable="false">Amazon</string>
+    <string name="starlit" translatable="false">Starlit</string>
+    <string name="bluemess" translatable="false">BlueMess</string>
+    <string name="struck" translatable="false">Struck</string>
+    <string name="whisper" translatable="false">Whisper</string>
+    <string name="lime" translatable="false">Lime</string>
+
+</resources>

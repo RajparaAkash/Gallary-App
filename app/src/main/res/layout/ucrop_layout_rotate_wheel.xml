@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:showIn="@layout/ucrop_controls"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/text_view_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:fontFamily="@font/sf_medium"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"
+        tools:text="100°" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+            android:id="@+id/rotate_scroll_wheel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_toStartOf="@+id/wrapper_rotate_by_angle"
+            android:layout_toLeftOf="@+id/wrapper_rotate_by_angle"
+            android:layout_toEndOf="@+id/wrapper_reset_rotate"
+            android:layout_toRightOf="@+id/wrapper_reset_rotate" />
+
+        <FrameLayout
+            android:id="@+id/wrapper_reset_rotate"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerVertical="true"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_gravity="center"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ucrop_reset_img" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/wrapper_rotate_by_angle"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_gravity="center"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ucrop_angle_img" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

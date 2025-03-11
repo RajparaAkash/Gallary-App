@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_12sdp"
+    android:background="@drawable/bg_dialog_backgroud_top"
+    android:backgroundTint="@color/dialog_backgroud_bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/sf_medium"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="Need Permissions"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:fontFamily="@font/sf_regular"
+        android:gravity="center"
+        android:text="Please grant the necessary permissions in the app settings to use this application."
+        android:textColor="@color/sub_text_color"
+        android:textSize="@dimen/_12ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_cancle_text"
+            android:fontFamily="@font/sf_semi_bold"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:text="Cancel"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/settingsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_01"
+            android:fontFamily="@font/sf_semi_bold"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:text="Go Settings"
+            android:textColor="@color/white_to_white"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>

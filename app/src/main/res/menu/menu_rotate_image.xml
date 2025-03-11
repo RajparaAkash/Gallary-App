@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/e_rotate_right_90"
+        android:title="@string/str_182" />
+    <item
+        android:id="@+id/e_rotate_left_90"
+        android:title="@string/str_183" />
+    <item
+        android:id="@+id/e_rotate_180"
+        android:title="@string/str_184" />
+</menu>

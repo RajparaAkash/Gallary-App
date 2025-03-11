@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActAiBgRemoverAuto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/str_213"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_weight="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_1sdp">
+
+            <ImageView
+                android:id="@+id/bgRemover_mainImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/optionLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/resetTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_weight="0.6"
+            android:background="@drawable/bg_ai_remove"
+            android:fontFamily="@font/sf_medium"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/str_218"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/refineTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="0.4"
+            android:background="@drawable/bg_ai_remove"
+            android:fontFamily="@font/sf_medium"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/str_219"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_13ssp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/removeBackgroundTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@drawable/background_01"
+        android:fontFamily="@font/sf_semi_bold"
+        android:foreground="@drawable/bg_ripple_squre"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lines="1"
+        android:text="@string/str_216"
+        android:textColor="@color/white_to_white"
+        android:textSize="@dimen/_13ssp" />
+
+    <include
+        android:id="@+id/nativeLay"
+        layout="@layout/layout_native_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_4sdp" />
+
+</LinearLayout>

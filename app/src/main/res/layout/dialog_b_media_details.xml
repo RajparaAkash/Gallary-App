@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottomsheet"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/background_01"
+        android:backgroundTint="@color/bottom_dialog_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/sf_medium"
+        android:gravity="center_vertical"
+        android:text="@string/str_47"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_14ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_97"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_98"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_type_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_99"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_size_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_100"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_date_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_101"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_resolution_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:fontFamily="@font/sf_regular"
+            android:text="@string/str_102"
+            android:textColor="@color/sub_text_color"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/moreD_path_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:fontFamily="@font/sf_regular"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOk"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/background_01"
+        android:fontFamily="@font/sf_semi_bold"
+        android:foreground="@drawable/bg_ripple_squre"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/str_67"
+        android:textColor="@color/white_to_white"
+        android:textSize="@dimen/_12ssp" />
+
+</LinearLayout>

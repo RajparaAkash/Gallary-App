@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_12sdp"
+    android:background="@drawable/bg_dialog_backgroud_top"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sf_medium"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="@string/str_22"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_14ssp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/view_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_backgroud_bottom"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/renameFileEt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_edit_text"
+            android:fontFamily="@font/sf_regular"
+            android:hint="@string/str_125"
+            android:imeOptions="actionDone"
+            android:includeFontPadding="false"
+            android:inputType="text"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:textColor="@color/text_color"
+            android:textColorHint="#A1A1A1"
+            android:textCursorDrawable="@drawable/custom_cursor"
+            android:textSize="@dimen/_14ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancelTxt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_dialog_cancle_text"
+                android:fontFamily="@font/sf_semi_bold"
+                android:foreground="@drawable/bg_ripple_squre"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:text="@string/str_26"
+                android:textColor="@color/sub_text_color"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/renameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_01"
+                android:fontFamily="@font/sf_semi_bold"
+                android:foreground="@drawable/bg_ripple_squre"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:text="@string/str_42"
+                android:textColor="@color/white_to_white"
+                android:textSize="@dimen/_12ssp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

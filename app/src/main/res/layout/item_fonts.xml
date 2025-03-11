@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareImagesView
+        android:id="@+id/ivDummy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvFontPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivDummy"
+        android:layout_alignBottom="@+id/ivDummy"
+        android:gravity="center"
+        android:text="Abc"
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+
+</RelativeLayout>

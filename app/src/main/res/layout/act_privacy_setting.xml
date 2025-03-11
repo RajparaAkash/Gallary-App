@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActPrivacySetting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:text="@string/str_57"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color" />
+
+    <include
+        android:id="@+id/nativeLay"
+        layout="@layout/layout_native_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp" />
+
+    <LinearLayout
+        android:id="@+id/privacySettingLay1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/setting_item_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_11sdp"
+            android:src="@drawable/icon_setting_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sf_regular"
+                android:includeFontPadding="false"
+                android:text="@string/str_31"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:fontFamily="@font/sf_regular"
+                android:includeFontPadding="false"
+                android:text="@string/str_69"
+                android:textColor="@color/sub_text_color"
+                android:textSize="@dimen/_9ssp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_9sdp"
+            android:src="@drawable/icon_setting_arrow" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/setting_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/setting_item_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_11sdp"
+            android:src="@drawable/icon_setting_privacy_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_regular"
+            android:includeFontPadding="false"
+            android:text="@string/str_71"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/enbleFingerSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/setting_view" />
+
+    <LinearLayout
+        android:id="@+id/privacySettingLay3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/setting_item_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_11sdp"
+            android:src="@drawable/icon_setting_privacy_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sf_regular"
+                android:includeFontPadding="false"
+                android:text="@string/str_70"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/lockStyleTypeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:fontFamily="@font/sf_regular"
+                android:includeFontPadding="false"
+                android:text="Pin"
+                android:textColor="@color/sub_text_color"
+                android:textSize="@dimen/_9ssp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_9sdp"
+            android:src="@drawable/icon_setting_arrow" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/setting_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/setting_item_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_11sdp"
+            android:src="@drawable/icon_setting_privacy_4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_regular"
+            android:includeFontPadding="false"
+            android:text="@string/str_72"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/invisibleModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/setting_view" />
+
+</LinearLayout>

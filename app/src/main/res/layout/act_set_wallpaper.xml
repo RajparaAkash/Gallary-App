@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActSetWallpaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/str_10"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color" />
+
+    <ImageView
+        android:id="@+id/setWallpaperImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/setAsWallpaperTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/background_01"
+            android:fontFamily="@font/sf_bold"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:text="@string/str_76"
+            android:textColor="@color/white_to_white"
+            android:textSize="@dimen/_13ssp" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_adaptive_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

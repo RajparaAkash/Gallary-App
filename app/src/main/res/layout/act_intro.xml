@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActIntro">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/introViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:overScrollMode="never"
+            app:layout_constraintBottom_toTopOf="@+id/introIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/introIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_25sdp"
+            app:dotsColor="@color/colorPrimary"
+            app:dotsCornerRadius="@dimen/_50sdp"
+            app:dotsSize="@dimen/_8sdp"
+            app:dotsSpacing="@dimen/_3sdp"
+            app:dotsWidthFactor="2.5"
+            app:layout_constraintBottom_toTopOf="@+id/nextTxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:progressMode="true"
+            app:selectedDotColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/skipTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:fontFamily="@font/sf_regular"
+            android:includeFontPadding="false"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/str_114"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nextTxt"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/background_02"
+            android:fontFamily="@font/sf_medium"
+            android:foreground="@drawable/bg_ripple_round"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:text="@string/str_115"
+            android:textAllCaps="true"
+            android:textColor="@color/white_to_white"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/nativeLay"
+        layout="@layout/layout_native_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_4sdp" />
+
+</LinearLayout>

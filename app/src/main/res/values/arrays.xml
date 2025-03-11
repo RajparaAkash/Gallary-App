@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="languageIcon">
+        <item>@drawable/icon_language_01</item>
+        <item>@drawable/icon_language_02</item>
+        <item>@drawable/icon_language_03</item>
+        <item>@drawable/icon_language_04</item>
+        <item>@drawable/icon_language_05</item>
+        <item>@drawable/icon_language_06</item>
+        <item>@drawable/icon_language_07</item>
+        <item>@drawable/icon_language_08</item>
+        <item>@drawable/icon_language_09</item>
+        <item>@drawable/icon_language_10</item>
+        <item>@drawable/icon_language_11</item>
+        <item>@drawable/icon_language_12</item>
+        <item>@drawable/icon_language_13</item>
+        <item>@drawable/icon_language_14</item>
+    </array>
+
+    <array name="languageName">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Italian</item>
+        <item>Dutch</item>
+        <item>Portuguese</item>
+        <item>Korean</item>
+        <item>Swedish</item>
+        <item>Indonesian</item>
+    </array>
+
+    <array name="editFontName">
+        <item>edit_font_0</item>
+        <item>edit_font_1</item>
+        <item>edit_font_2</item>
+        <item>edit_font_3</item>
+        <item>edit_font_4</item>
+        <item>edit_font_5</item>
+        <item>edit_font_6</item>
+        <item>edit_font_7</item>
+        <item>edit_font_8</item>
+        <item>edit_font_9</item>
+        <item>edit_font_10</item>
+        <item>edit_font_11</item>
+        <item>edit_font_12</item>
+        <item>edit_font_13</item>
+        <item>edit_font_14</item>
+        <item>edit_font_15</item>
+        <item>edit_font_16</item>
+        <item>edit_font_17</item>
+        <item>edit_font_18</item>
+        <item>edit_font_19</item>
+        <item>edit_font_20</item>
+        <item>edit_font_21</item>
+        <item>edit_font_22</item>
+        <item>edit_font_23</item>
+        <item>edit_font_24</item>
+        <item>edit_font_25</item>
+        <item>edit_font_26</item>
+        <item>edit_font_27</item>
+        <item>edit_font_28</item>
+        <item>edit_font_29</item>
+        <item>edit_font_30</item>
+        <item>edit_font_31</item>
+    </array>
+
+    <array name="editMainOption">
+        <item>@string/str_185</item>
+        <item>@string/str_171</item>
+        <item>@string/str_170</item>
+        <item>@string/str_178</item>
+    </array>
+
+    <array name="adjustOption">
+        <item>@string/str_177</item>
+        <item>@string/str_181</item>
+        <item>@string/str_169</item>
+        <item>@string/str_167</item>
+        <item>@string/str_176</item>
+        <item>@string/str_165</item>
+        <item>@string/str_168</item>
+        <item>@string/str_173</item>
+    </array>
+
+    <array name="filterName">
+        <item>1977</item>
+        <item>Amaro</item>
+        <item>Brannan</item>
+        <item>Earlybird</item>
+        <item>Hefe</item>
+        <item>Hudson</item>
+        <item>Inkwell</item>
+        <item>Lomo</item>
+        <item>Lordkelvin</item>
+        <item>Nashville</item>
+        <item>Rise</item>
+        <item>Sierra</item>
+        <item>Sutro</item>
+        <item>Toaster</item>
+        <item>Valencia</item>
+        <item>Walden</item>
+        <item>Xproll</item>
+    </array>
+
+    <array name="securityQuestion">
+        <item>What\'s your favorite color?</item>
+        <item>What\'s your pet\'s name?</item>
+        <item>What\'s your lucky number?</item>
+        <item>Where is your birthplace?</item>
+        <item>What primary school did you attend?</item>
+        <item>What\'s your favorite movie?</item>
+        <item>What\'s your dream job?</item>
+    </array>
+
+    <array name="bgRemover_icon">
+        <item>@drawable/bg_remover_icon_eraser</item>
+        <item>@drawable/bg_remover_icon_auto</item>
+        <item>@drawable/bg_remover_icon_lasso</item>
+        <item>@drawable/bg_remover_icon_restore</item>
+        <item>@drawable/bg_remover_icon_zoom</item>
+        <item>@drawable/bg_remover_icon_bg</item>
+    </array>
+
+    <array name="bgRemover_title">
+        <item>@string/str_223</item>
+        <item>@string/str_224</item>
+        <item>@string/str_225</item>
+        <item>@string/str_226</item>
+        <item>@string/str_227</item>
+        <item>@string/str_228</item>
+    </array>
+
+</resources>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActAiBgRemoverEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/str_219"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+        <ImageView
+            android:id="@+id/bgRemover_undoImg"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:adjustViewBounds="true"
+            android:foreground="@drawable/bg_ripple_round"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/bg_remover_icon_undo" />
+
+        <ImageView
+            android:id="@+id/bgRemover_redoImg"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            android:foreground="@drawable/bg_ripple_round"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/bg_remover_icon_redo" />
+
+        <TextView
+            android:id="@+id/bgRemover_saveTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/_11sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/background_02"
+            android:fontFamily="@font/sf_semi_bold"
+            android:foreground="@drawable/bg_ripple_round"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:text="@string/str_64"
+            android:textColor="@color/white_to_white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bgRemover_bgImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/bgRemover_mainLay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/bgRemover_valueTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/erase_mainLay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_4sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_229"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <SeekBar
+                        android:id="@+id/erase_sizeSb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:max="65"
+                        android:maxHeight="@dimen/_3sdp"
+                        android:progressDrawable="@drawable/seekbar_progress"
+                        android:thumb="@drawable/seekbar_thumbs" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_230"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <SeekBar
+                        android:id="@+id/erase_offSetSb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:max="300"
+                        android:maxHeight="@dimen/_3sdp"
+                        android:progressDrawable="@drawable/seekbar_progress"
+                        android:thumb="@drawable/seekbar_thumbs" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/auto_mainLay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_4sdp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_231"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <SeekBar
+                        android:id="@+id/auto_thresholdSb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:max="80"
+                        android:maxHeight="@dimen/_3sdp"
+                        android:progressDrawable="@drawable/seekbar_progress"
+                        android:thumb="@drawable/seekbar_thumbs" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_230"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <SeekBar
+                        android:id="@+id/auto_offSetSb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:max="300"
+                        android:maxHeight="@dimen/_3sdp"
+                        android:progressDrawable="@drawable/seekbar_progress"
+                        android:thumb="@drawable/seekbar_thumbs" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lasso_mainLay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_4sdp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:fontFamily="@font/sf_regular"
+                    android:includeFontPadding="false"
+                    android:text="@string/str_230"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_10ssp" />
+
+                <SeekBar
+                    android:id="@+id/lasso_offSetSb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="300"
+                    android:maxHeight="@dimen/_3sdp"
+                    android:progressDrawable="@drawable/seekbar_progress"
+                    android:thumb="@drawable/seekbar_thumbs" />
+
+                <ImageView
+                    android:id="@+id/lasso_outSideImg"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginStart="@dimen/_9sdp"
+                    android:background="@drawable/bg_tab_img"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/icon_cutout" />
+
+                <ImageView
+                    android:id="@+id/lasso_inSideImg"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginStart="@dimen/_9sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@drawable/bg_tab_img"
+                    android:padding="@dimen/_8sdp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_cutout" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bgRemoverOptionsRv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_55sdp"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_adaptive_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

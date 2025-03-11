@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_4sdp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sub_bg_color"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_search_item"
+        app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+    <ImageView
+        android:id="@+id/videoImg"
+        android:layout_width="@dimen/_23sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_video_play" />
+
+    <TextView
+        android:id="@+id/mediaNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/sf_regular"
+        android:gravity="center"
+        android:lines="1"
+        android:text="TAG"
+        android:textColor="@color/white_to_white"
+        android:textSize="@dimen/_10ssp" />
+
+</com.gallaryapp.privacyvault.photoeditor.MyViewCustom.SquareRelativeLayout>

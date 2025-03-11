@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504258411504",
+    "project_id": "gallery-fe34e",
+    "storage_bucket": "gallery-fe34e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504258411504:android:19995ab57c3d7b1b5cbb35",
+        "android_client_info": {
+          "package_name": "com.gallaryapp.privacyvault.photoeditor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSegdoHdBAHoH6Ev9P2JD6OFUDOP5lcmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

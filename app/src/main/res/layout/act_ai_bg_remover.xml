@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActAiBgRemover">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:text="@string/str_213"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_30sdp"
+            android:src="@drawable/icon_background_remover" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/sf_regular"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/str_214"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/continueTxt"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/background_02"
+        android:fontFamily="@font/sf_medium"
+        android:foreground="@drawable/bg_ripple_round"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lines="1"
+        android:text="@string/str_215"
+        android:textColor="@color/white_to_white"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintBottom_toTopOf="@+id/bannerLay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        android:id="@+id/nativeLay"
+        layout="@layout/layout_native_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_4sdp" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottomsheet"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <View
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_01"
+        android:backgroundTint="@color/bottom_dialog_view" />
+
+    <TextView
+        android:id="@+id/messageTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/sf_medium"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/_2sdp"
+        android:includeFontPadding="false"
+        android:text="@string/str_13"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_13ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_03"
+            android:fontFamily="@font/sf_semi_bold"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/str_26"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/discardTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_01"
+            android:fontFamily="@font/sf_semi_bold"
+            android:foreground="@drawable/bg_ripple_squre"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/str_14"
+            android:textColor="@color/white_to_white"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>

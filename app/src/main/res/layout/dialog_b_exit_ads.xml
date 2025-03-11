@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_exit_dialog"
+    android:backgroundTint="@color/bg_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/nativeLay"
+        layout="@layout/layout_native_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp" />
+
+    <TextView
+        android:id="@+id/exitTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sf_medium"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingTop="@dimen/_14sdp"
+        android:paddingBottom="@dimen/_14sdp"
+        android:text="Press here to exit"
+        android:textColor="@color/exit_text"
+        android:textSize="@dimen/_13ssp" />
+
+</LinearLayout>

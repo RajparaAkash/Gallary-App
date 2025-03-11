@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+
+    <color name="colorAccent">#3CB043</color>
+    <color name="colorPrimary">#3CB043</color>
+    <color name="colorPrimaryDark">#2C9A30</color>
+
+    <color name="tab_unselected">#828282</color>
+    <color name="tab_selected_vault">#FFFFFF</color>
+    <color name="tab_unselected_vault">#828282</color>
+    <color name="tab_unselect_border">#33EBECED</color>
+
+    <color name="switch_color_1">#3CB043</color>
+    <color name="switch_color_2">#BDBDBD</color>
+    <color name="switch_color_3">#803CB043</color>
+    <color name="switch_color_4">#D1D0D0</color>
+
+    <color name="bg_color">#0D161B</color>
+    <color name="icon_black">#FFFFFF</color>
+    <color name="view_color">#172126</color>
+    <color name="setting_view">#111B21</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="sub_text_color">#828282</color>
+    <color name="squre_checkBox_border">#FFFFFF</color>
+    <color name="lang_unselect_border">#212A30</color>
+    <color name="sub_bg_color">#192328</color>
+    <color name="cancel_text_color">#747A83</color>
+    <color name="dialog_backgroud_top">#141D21</color>
+    <color name="dialog_backgroud_bottom">#121A1E</color>
+    <color name="dialog_cancel_border_color">#1C2529</color>
+    <color name="white_to_white">#FFFFFFFF</color>
+    <color name="dialog_bottomsheet">#141D21</color>
+    <color name="security_que_ans_boder">#212B30</color>
+    <color name="setting_item_bg">#0E181E</color>
+    <color name="bottom_dialog_view">#2B3940</color>
+    <color name="drawer_bg">#101B22</color>
+    <color name="drawer_view">#172732</color>
+
+    <color name="exit_bg">#1C2529</color>
+    <color name="exit_text">#FFFFFF</color>
+    <color name="shimmer_color">#2B3940</color>
+    <color name="ad_btn_color">#087C10</color>
+    <color name="ad_bg">#1C2529</color>
+
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActPrivacyAlbumFiles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_44sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:adjustViewBounds="true"
+                android:foreground="@drawable/bg_ripple_round"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/header_back_img" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/headerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:fontFamily="@font/sf_medium"
+            android:includeFontPadding="false"
+            android:text="Privacy Album Name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14ssp" />
+
+        <ImageView
+            android:id="@+id/privacyDataSelectAllImg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_14sdp"
+            android:src="@drawable/icon_img_unselected"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/privacyAlbumFilesRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/privacyBottomDataLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/privacyBottomDataShare"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:src="@drawable/icon_share_file" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/sf_regular"
+                    android:includeFontPadding="false"
+                    android:text="@string/str_36"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/privacyBottomDataMoveTo"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:src="@drawable/icon_move_file" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/sf_regular"
+                    android:includeFontPadding="false"
+                    android:text="@string/str_140"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/privacyBottomDataUnlock"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:src="@drawable/icon_unlock_file" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/sf_regular"
+                    android:includeFontPadding="false"
+                    android:text="@string/str_95"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/privacyBottomDataDelete"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:src="@drawable/icon_delete_file" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/sf_regular"
+                    android:includeFontPadding="false"
+                    android:text="@string/str_40"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_adaptive_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

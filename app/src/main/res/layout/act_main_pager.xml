@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".Activity.ActMainPager">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mainMediaViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/toolbarLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_44sdp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="@dimen/_44sdp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/back_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:adjustViewBounds="true"
+                    android:foreground="@drawable/bg_ripple_round"
+                    android:padding="@dimen/_7sdp"
+                    android:src="@drawable/header_back_img" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/headerTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/sf_medium"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="Image"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_14ssp" />
+
+            <ImageView
+                android:id="@+id/rotateMediaImg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingTop="@dimen/_13sdp"
+                android:paddingEnd="@dimen/_7sdp"
+                android:paddingBottom="@dimen/_13sdp"
+                android:src="@drawable/icon_rotate_img" />
+
+            <ImageView
+                android:id="@+id/favoriteMediaImg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingStart="@dimen/_7sdp"
+                android:paddingTop="@dimen/_13sdp"
+                android:paddingEnd="@dimen/_14sdp"
+                android:paddingBottom="@dimen/_13sdp"
+                android:src="@drawable/icon_heart_unfill" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomOptionLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adaptiveBanner"
+
+            android:background="@color/bg_color"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/bottomShareLay"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:contentDescription="@string/str_0"
+                        android:src="@drawable/icon_share_file" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_36"
+                        android:textColor="@color/text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottomEditLay"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:contentDescription="@string/str_0"
+                        android:src="@drawable/icon_edit_img" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_37"
+                        android:textColor="@color/text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottomLockLay"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:contentDescription="@string/str_0"
+                        android:src="@drawable/icon_lock_file" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_39"
+                        android:textColor="@color/text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottomDeleteLay"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:contentDescription="@string/str_0"
+                        android:src="@drawable/icon_delete_file" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_40"
+                        android:textColor="@color/text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottomMoreLay"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:contentDescription="@string/str_0"
+                        android:src="@drawable/icon_more_file" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_regular"
+                        android:includeFontPadding="false"
+                        android:text="@string/str_41"
+                        android:textColor="@color/text_color" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_adaptive_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
